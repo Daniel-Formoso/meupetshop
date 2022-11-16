@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(118, 230, 133);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+    display: inline-block;   
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menu li a:hover {
+    background-color: rgb(219, 247, 213);
+}
+
+body {
+    background-color: rgb(176, 245, 176)
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    margin: 20px;;
+}
+
+.serviços {
+    background-color: #76e685;
+}
+
+.video {
+    margin: 20px;
+}
+
+.promo {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+.itens {
+    text-align: center;
+    margin-top: 50px;
+    align-items: baseline;
+}
+
+.brinquedo {
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    border: solid #545454;
+    border-radius: 15px; 
+}
+  
+.casinha {
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+    border: solid #545454;
+    border-radius: 15px;
+}
+
+.precobrinquedo {
+    margin-left: 500px;
+}
+
+.precocasinha {
+    margin-left: 650px;
+}
+
+.nomebrinquedo {
+    margin-left: 500px;
+}
+
+.nomecasinha {
+    margin-left: 650px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #76e685;
+    width: 100%;
+    height: 50px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+}
+
+.texto-imagem {
+    margin-left: 20px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.criador {
+    text-align: left;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
